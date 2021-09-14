@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>eelテスト</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <h2>翻訳機</h2>
+        <div class="content-wrapper">
+            <div class="inline-block">
+                <p>翻訳前</p>
+                <div>言語を選択してください
+                    <select id="before_translate">
+                    <option value="japanese">日本語</option>
+                    <option value="english">英語</option>
+                    <option value="korean">韓国語</option>
+                    <option value="chinese">中国語</option>
+                    <option value="german">ドイツ語</option>
+                    <option value="french">フランス語</option>
+                    </select>
+                </div>
+                <textarea id="trans_src"></textarea>
+            </div>
+            <button id="translate_btn">翻訳</button>
+            <div class="inline-block">
+                <p>翻訳後</p>
+                <div>言語を選択してください
+                    <select id="after_translate">
+                    <option value="japanese">日本語</option>
+                    <option value="english">英語</option>
+                    <option value="korean">韓国語</option>
+                    <option value="chinese">中国語</option>
+                    <option value="german">ドイツ語</option>
+                    <option value="french">フランス語</option>
+                    </select>
+                </div>
+                <textarea id="trans_dest"></textarea>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="./eel.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
